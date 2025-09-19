@@ -1,0 +1,56 @@
+{
+  "S": {
+    "connections": ["O", "K"]
+  },
+  "O": {
+    "connections": ["S", "K", "X", "D", "P"]
+  },
+  "P": {
+    "connections": ["O", "X", "D", "Y"]
+  },
+  "Y": {
+    "connections": ["P", "Q"]
+  },
+
+  
+  "K": {
+    "connections": ["S", "O"]
+  },
+  "X": {
+    "connections": ["O", "P", "D", "R"]
+  },
+  "D": {
+    "connections": ["X", "O", "P", "Q"]
+  },
+  "Q": {
+    "connections": ["D", "Y", "R"]
+  },
+
+  
+  "H": {
+    "connections": ["Z"]
+  },
+  "A": {
+    "connections": ["Z", "C", "U"]
+  },
+  "R": {
+    "connections": ["X", "Q", "C", "T"]
+  },
+  "W": {
+    "connections": ["U", "T"]
+  },
+
+  
+  "Z": {
+    "connections": ["H", "A", "C"]
+  },
+  "C": {
+    "connections": ["Z", "A", "R", "U"]
+  },
+  "U": {
+    "connections": ["C", "A", "W", "T"]
+  }
+  "T": {
+    "connections": ["U", "R", "W"]
+  }
+}
