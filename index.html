@@ -1,9 +1,34 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    
-  </head>
-  <body>
-    
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puthing Around</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div id="grid-container" class="grid-container">
+        <svg id="connections-svg" class="connections-svg"></svg>
+        <div id="letters-grid" class="letters-grid"></div>
+    </div>
+
+    <div class="attempts" id="attempts-box">
+        <div class="attempt">
+            <h2 class="fail">Attempt #1</h2>
+            <p>Highlighting all letters</p>
+        </div>
+    </div>
+
+    <div class="input-box">
+        <input type="text" id="sequence-input" placeholder="Enter letters (e.g., SOPY)" maxlength="16">
+        <button id="check-btn">Check</button>
+    </div>
+
+    <div id="status" class="status"></div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
 </html>

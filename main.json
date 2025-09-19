@@ -49,7 +49,7 @@
   },
   "U": {
     "connections": ["C", "A", "W", "T"]
-  }
+  },
   "T": {
     "connections": ["U", "R", "W"]
   }
